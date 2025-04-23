@@ -1,0 +1,510 @@
+Casos de prueba para existeVinoDeUvaEnRegion
+==============================================
+
+TEST de existeVinoDeUvaEnRegion
+	¿Hay algún vino de la uva Chardonnay en la región California? true
+
+TEST de existeVinoDeUvaEnRegion
+	¿Hay algún vino de la uva Portuguese White en la región California? false
+
+Casos de prueba para calcularUvasDeRegion
+===========================================
+
+TEST de calcularUvasDeRegion
+	Hay 90 uvas de la región California y son
+	Alicante Bouschet
+	Touriga Nacional
+	Port
+	Cabernet Sauvignon-Syrah
+	Viognier-Chardonnay
+	Semillon-Sauvignon Blanc
+	Cinsault
+	Cabernet Sauvignon-Merlot
+	Marsanne
+	Syrah
+	Syrah-Cabernet Sauvignon
+	Shiraz
+	Mission
+	Teroldego
+	Verdelho
+	Grenache
+	Grenache Blanc
+	Cabernet Blend
+	Fumé Blanc
+	Muscat d'Alexandrie
+	Garnacha
+	Grenache Blend
+	Malbec
+	Zinfandel
+	Chardonnay-Semillon
+	Chardonnay
+	Cabernet Franc
+	Orange Muscat
+	Rhône-style Red Blend
+	Petit Verdot
+	Carignane
+	G-S-M
+	Ugni Blanc
+	Cabernet Sauvignon
+	Aglianico
+	Charbono
+	White Blend
+	Roussanne
+	Merlot-Cabernet Sauvignon
+	Cabernet Sauvignon-Cabernet Franc
+	Grüner Veltliner
+	Carmenère
+	Bordeaux-style White Blend
+	Nebbiolo
+	Primitivo
+	Pinot Blanc
+	Mourvèdre
+	Pinot Gris
+	Albariño
+	Syrah-Grenache
+	Viognier
+	Torrontés
+	Riesling
+	Cabernet Sauvignon-Sangiovese
+	Rosé
+	Montepulciano
+	Negroamaro
+	Tocai Friulano
+	Gewürztraminer
+	Rhône-style White Blend
+	Sauvignon Blanc-Semillon
+	Syrah-Petite Sirah
+	Sangiovese-Cabernet Sauvignon
+	Dolcetto
+	Malvasia Bianca
+	Chenin Blanc
+	Roussanne-Viognier
+	Tannat
+	Syrah-Merlot
+	Graciano
+	Red Blend
+	Aligoté
+	Pinot Noir
+	Moscato
+	Tempranillo
+	Sparkling Blend
+	Muscat Canelli
+	Petite Sirah
+	Meritage
+	Bordeaux-style Red Blend
+	Pinot Grigio
+	Sangiovese
+	Barbera
+	Sangiovese-Syrah
+	Syrah-Mourvèdre
+	Sémillon
+	Grenache-Syrah
+	Sauvignon Blanc
+	Merlot
+	Vermentino
+
+Casos de prueba para calcularTotalPuntosVinosDeRegion
+==============================================
+
+TEST de calcularTotalPuntosVinosDeRegion
+	El total de puntos de la región California es 171842
+
+Casos de prueba para calcularMediaPuntosVinosDeUva
+==============================================
+
+TEST de calcularMediaPuntosVinosDeUva
+	La media de puntos de los vinos de la uva Chardonnay es 88,43
+
+Casos de prueba para obtenerVinoMejorPuntuado
+===============================================
+
+TEST de obtenerVinoMejorPuntuado
+	El vino mejor puntuado es: Vino[pais=France, region=Bordeaux, puntos=100, precio=848.0, uva=Bordeaux-style White Blend]
+
+Casos de prueba para obtenerVinoMejorPuntuadoDePais
+=====================================================
+
+TEST de obtenerVinoMejorPuntuadoDePais
+	El vino mejor puntuado del pais Spain es: Vino[pais=Spain, region=Northern Spain, puntos=98, precio=450.0, uva=Tinto Fino]
+
+Casos de prueba para obtenerNVinosRegionOrdenadosPrecio
+=====================================================
+
+TEST de obtenerNVinosRegionOrdenadosPrecio
+	Los 10 vinos más caros de la región California son
+	Vino[pais=US, region=California, puntos=95, precio=325.0, uva=Cabernet Sauvignon]
+	Vino[pais=US, region=California, puntos=96, precio=235.0, uva=Cabernet Sauvignon]
+	Vino[pais=US, region=California, puntos=93, precio=200.0, uva=Cabernet Sauvignon]
+	Vino[pais=US, region=California, puntos=91, precio=200.0, uva=Cabernet Sauvignon]
+	Vino[pais=US, region=California, puntos=95, precio=185.0, uva=Cabernet Sauvignon]
+	Vino[pais=US, region=California, puntos=94, precio=185.0, uva=Cabernet Sauvignon]
+	Vino[pais=US, region=California, puntos=85, precio=165.0, uva=Red Blend]
+	Vino[pais=US, region=California, puntos=94, precio=155.0, uva=Cabernet Sauvignon]
+	Vino[pais=US, region=California, puntos=96, precio=150.0, uva=Cabernet Sauvignon]
+	Vino[pais=US, region=California, puntos=94, precio=150.0, uva=Cabernet Sauvignon]
+
+Casos de prueba para agrupaVinosPorPais
+=========================================
+
+TEST de agruparVinosPorPais
+  Vinos por pais: 
+Portugal
+	Vino[pais=Portugal, region=Douro, puntos=90, precio=18.0, uva=Portuguese White]
+	Vino[pais=Portugal, region=Dão, puntos=91, precio=16.0, uva=Portuguese Red]
+	Vino[pais=Portugal, region=Port, puntos=88, precio=20.0, uva=Port]
+	Vino[pais=Portugal, region=Douro, puntos=90, precio=19.0, uva=Portuguese White]
+	Vino[pais=Portugal, region=Bairrada, puntos=91, precio=40.0, uva=Arinto]
+	Vino[pais=Portugal, region=Tejo, puntos=84, precio=12.0, uva=Arinto]
+	Vino[pais=Portugal, region=Bairrada, puntos=85, precio=8.0, uva=Portuguese Sparkling]
+	Vino[pais=Portugal, region=Dão, puntos=91, precio=10.0, uva=Portuguese Red]
+	Vino[pais=Portugal, region=Tejo, puntos=83, precio=10.0, uva=Portuguese White]
+	Vino[pais=Portugal, region=Douro, puntos=86, precio=15.0, uva=Rosé]
+Greece
+	Vino[pais=Greece, region=Santorini, puntos=89, precio=30.0, uva=Assyrtico]
+	Vino[pais=Greece, region=Drama, puntos=85, precio=16.0, uva=Malagousia]
+	Vino[pais=Greece, region=Atalanti Valley, puntos=89, precio=24.0, uva=White Blend]
+	Vino[pais=Greece, region=Central Greece, puntos=86, precio=17.0, uva=Malagousia]
+	Vino[pais=Greece, region=Santorini, puntos=89, precio=20.0, uva=Assyrtico]
+	Vino[pais=Greece, region=Santorini, puntos=89, precio=21.0, uva=Assyrtiko]
+	Vino[pais=Greece, region=Peloponnese, puntos=88, precio=19.0, uva=Agiorgitiko]
+	Vino[pais=Greece, region=Florina, puntos=89, precio=18.0, uva=Malagouzia]
+	Vino[pais=Greece, region=Santorini, puntos=86, precio=13.0, uva=Assyrtico]
+	Vino[pais=Greece, region=Santorini, puntos=90, precio=20.0, uva=Assyrtiko]
+Austria
+	Vino[pais=Austria, region=Niederösterreich, puntos=92, precio=22.0, uva=Grüner Veltliner]
+	Vino[pais=Austria, region=Carnuntum, puntos=83, precio=24.0, uva=Zweigelt]
+	Vino[pais=Austria, region=Burgenland, puntos=90, precio=15.0, uva=St. Laurent]
+	Vino[pais=Austria, region=Wachau, puntos=90, precio=27.0, uva=Grüner Veltliner]
+	Vino[pais=Austria, region=Carnuntum, puntos=92, precio=14.0, uva=Pinot Noir]
+	Vino[pais=Austria, region=Kamptal, puntos=90, precio=43.0, uva=Riesling]
+	Vino[pais=Austria, region=Burgenland, puntos=92, precio=28.0, uva=Red Blend]
+	Vino[pais=Austria, region=Wagram, puntos=90, precio=25.0, uva=Roter Veltliner]
+	Vino[pais=Austria, region=Niederösterreich, puntos=86, precio=10.0, uva=Zweigelt]
+	Vino[pais=Austria, region=Niederösterreich, puntos=87, precio=20.0, uva=Riesling]
+Morocco
+	Vino[pais=Morocco, region=Morocco, puntos=89, precio=25.0, uva=Red Blend]
+	Vino[pais=Morocco, region=Zenata, puntos=89, precio=15.0, uva=Red Blend]
+	Vino[pais=Morocco, region=Zenata, puntos=88, precio=18.0, uva=Chardonnay]
+	Vino[pais=Morocco, region=Zenata, puntos=89, precio=14.0, uva=Cabernet Sauvignon Grenache]
+	Vino[pais=Morocco, region=Zenata, puntos=87, precio=15.0, uva=White Blend]
+	Vino[pais=Morocco, region=Zenata, puntos=88, precio=18.0, uva=Sauvignon Blanc]
+	Vino[pais=Morocco, region=Guerrouane, puntos=93, precio=35.0, uva=Syrah-Grenache]
+	Vino[pais=Morocco, region=Zenata, puntos=90, precio=18.0, uva=Syrah]
+	Vino[pais=Morocco, region=Zenata, puntos=90, precio=17.0, uva=Syrah]
+Brazil
+	Vino[pais=Brazil, region=Serra Gaúcha, puntos=88, precio=15.0, uva=Merlot]
+Slovenia
+	Vino[pais=Slovenia, region=Vipavska Dolina, puntos=89, precio=35.0, uva=Cabernet Franc]
+	Vino[pais=Slovenia, region=Goriska Brda, puntos=90, precio=15.0, uva=Ribolla Gialla]
+	Vino[pais=Slovenia, region=Kras, puntos=90, precio=23.0, uva=Teran]
+	Vino[pais=Slovenia, region=Vipavska Dolina, puntos=89, precio=35.0, uva=White Blend]
+	Vino[pais=Slovenia, region=Goriska Brda, puntos=89, precio=27.0, uva=Ribolla Gialla]
+	Vino[pais=Slovenia, region=Goriska Brda, puntos=89, precio=22.0, uva=Ribolla Gialla]
+	Vino[pais=Slovenia, region=Štajerska, puntos=87, precio=11.0, uva=Moscato]
+	Vino[pais=Slovenia, region=Goriska Brda, puntos=90, precio=40.0, uva=Ribolla Gialla]
+	Vino[pais=Slovenia, region=Slovenska Istra, puntos=88, precio=36.0, uva=Malvasia]
+	Vino[pais=Slovenia, region=Goriska Brda, puntos=87, precio=24.0, uva=Rosé]
+Bulgaria
+	Vino[pais=Bulgaria, region=Bulgaria, puntos=90, precio=15.0, uva=Mavrud]
+	Vino[pais=Bulgaria, region=Thracian Valley, puntos=90, precio=26.0, uva=Mavrud]
+	Vino[pais=Bulgaria, region=Thracian Valley, puntos=85, precio=9.0, uva=Chardonnay]
+	Vino[pais=Bulgaria, region=Bulgaria, puntos=89, precio=15.0, uva=Ruen]
+	Vino[pais=Bulgaria, region=Thracian Valley, puntos=89, precio=12.0, uva=Chardonnay]
+	Vino[pais=Bulgaria, region=Thracian Valley, puntos=88, precio=9.0, uva=Chardonnay]
+	Vino[pais=Bulgaria, region=Thracian Valley, puntos=88, precio=10.0, uva=Pinot Noir]
+	Vino[pais=Bulgaria, region=Thracian Valley, puntos=89, precio=20.0, uva=Red Blend]
+	Vino[pais=Bulgaria, region=Thracian Valley, puntos=89, precio=16.0, uva=Red Blend]
+	Vino[pais=Bulgaria, region=Danube River Plains, puntos=90, precio=14.0, uva=Chardonnay]
+Serbia
+	Vino[pais=Serbia, region=Župa, puntos=88, precio=20.0, uva=Prokupac]
+	Vino[pais=Serbia, region=Pocerina, puntos=87, precio=26.0, uva=Morava]
+	Vino[pais=Serbia, region=Župa, puntos=89, precio=20.0, uva=Riesling]
+	Vino[pais=Serbia, region=Župa, puntos=87, precio=22.0, uva=Tamjanika]
+	Vino[pais=Serbia, region=Fruška Gora, puntos=86, precio=15.0, uva=Portuguiser]
+	Vino[pais=Serbia, region=Župa, puntos=88, precio=18.0, uva=Tamjanika]
+	Vino[pais=Serbia, region=Župa, puntos=86, precio=22.0, uva=Riesling]
+	Vino[pais=Serbia, region=Župa, puntos=89, precio=40.0, uva=Red Blend]
+Chile
+	Vino[pais=Chile, region=Maipo Valley, puntos=86, precio=10.0, uva=Sauvignon Blanc]
+	Vino[pais=Chile, region=Colchagua Valley, puntos=86, precio=17.0, uva=Sauvignon Blanc]
+	Vino[pais=Chile, region=Colchagua Valley, puntos=91, precio=100.0, uva=Red Blend]
+	Vino[pais=Chile, region=Maipo Valley, puntos=91, precio=40.0, uva=Red Blend]
+	Vino[pais=Chile, region=Colchagua Valley, puntos=88, precio=20.0, uva=Cabernet Sauvignon]
+	Vino[pais=Chile, region=Colchagua Valley, puntos=88, precio=19.0, uva=Syrah]
+	Vino[pais=Chile, region=Maipo Valley, puntos=89, precio=20.0, uva=Cabernet Sauvignon]
+	Vino[pais=Chile, region=Casablanca Valley, puntos=87, precio=35.0, uva=Chardonnay]
+	Vino[pais=Chile, region=Apalta, puntos=87, precio=13.0, uva=Carmenère]
+	Vino[pais=Chile, region=Casablanca Valley, puntos=83, precio=13.0, uva=Pinot Noir]
+France
+	Vino[pais=France, region=Alsace, puntos=94, precio=33.0, uva=Riesling]
+	Vino[pais=France, region=Alsace, puntos=94, precio=32.0, uva=Riesling]
+	Vino[pais=France, region=Alsace, puntos=86, precio=19.0, uva=Pinot Noir]
+	Vino[pais=France, region=Southwest France, puntos=85, precio=14.0, uva=Bordeaux-style Red Blend]
+	Vino[pais=France, region=Bordeaux, puntos=86, precio=35.0, uva=Sauvignon Blanc]
+	Vino[pais=France, region=Alsace, puntos=88, precio=13.0, uva=Pinot Blanc]
+	Vino[pais=France, region=Rhône Valley, puntos=88, precio=20.0, uva=Rhône-style White Blend]
+	Vino[pais=France, region=Southwest France, puntos=89, precio=17.0, uva=Malbec]
+	Vino[pais=France, region=Southwest France, puntos=92, precio=25.0, uva=Tannat]
+	Vino[pais=France, region=Southwest France, puntos=85, precio=10.0, uva=Bordeaux-style Red Blend]
+Bosnia and Herzegovina
+	Vino[pais=Bosnia and Herzegovina, region=Mostar, puntos=88, precio=12.0, uva=Blatina]
+US
+	Vino[pais=US, region=California, puntos=85, precio=13.0, uva=Chardonnay]
+	Vino[pais=US, region=California, puntos=86, precio=50.0, uva=Chardonnay]
+	Vino[pais=US, region=Oregon, puntos=94, precio=55.0, uva=Pinot Noir]
+	Vino[pais=US, region=California, puntos=91, precio=40.0, uva=Rosé]
+	Vino[pais=US, region=California, puntos=84, precio=17.0, uva=Red Blend]
+	Vino[pais=US, region=California, puntos=91, precio=40.0, uva=Zinfandel]
+	Vino[pais=US, region=Arizona, puntos=85, precio=23.0, uva=Chardonnay]
+	Vino[pais=US, region=California, puntos=90, precio=10.0, uva=Zinfandel]
+	Vino[pais=US, region=California, puntos=88, precio=19.0, uva=Viognier]
+	Vino[pais=US, region=California, puntos=90, precio=42.0, uva=Rhône-style Red Blend]
+Croatia
+	Vino[pais=Croatia, region=North Dalmatia, puntos=91, precio=50.0, uva=Red Blend]
+	Vino[pais=Croatia, region=North Dalmatia, puntos=88, precio=27.0, uva=Posip]
+	Vino[pais=Croatia, region=North Dalmatia, puntos=88, precio=19.0, uva=White Blend]
+	Vino[pais=Croatia, region=Korčula, puntos=86, precio=25.0, uva=Posip]
+	Vino[pais=Croatia, region=Korčula, puntos=87, precio=19.0, uva=Posip]
+	Vino[pais=Croatia, region=Istria, puntos=90, precio=20.0, uva=Malvazija]
+	Vino[pais=Croatia, region=Hvar, puntos=88, precio=20.0, uva=Posip]
+Argentina
+	Vino[pais=Argentina, region=Mendoza Province, puntos=89, precio=15.0, uva=Bonarda]
+	Vino[pais=Argentina, region=Other, puntos=84, precio=11.0, uva=Syrah]
+	Vino[pais=Argentina, region=Mendoza Province, puntos=84, precio=13.0, uva=Chardonnay]
+	Vino[pais=Argentina, region=Mendoza Province, puntos=85, precio=19.0, uva=Chardonnay]
+	Vino[pais=Argentina, region=Mendoza Province, puntos=84, precio=8.0, uva=Chardonnay]
+	Vino[pais=Argentina, region=Other, puntos=85, precio=14.0, uva=Cabernet Sauvignon]
+	Vino[pais=Argentina, region=Mendoza Province, puntos=85, precio=11.0, uva=Chardonnay]
+	Vino[pais=Argentina, region=Mendoza Province, puntos=85, precio=12.0, uva=Chardonnay]
+	Vino[pais=Argentina, region=Other, puntos=85, precio=13.0, uva=Cabernet Sauvignon]
+	Vino[pais=Argentina, region=Mendoza Province, puntos=82, precio=8.0, uva=Cabernet Sauvignon]
+Romania
+	Vino[pais=Romania, region=Romania, puntos=86, precio=7.0, uva=Sauvignon Blanc]
+	Vino[pais=Romania, region=Romania, puntos=87, precio=9.0, uva=Merlot]
+	Vino[pais=Romania, region=Romania, puntos=87, precio=9.0, uva=Sauvignon Blanc]
+	Vino[pais=Romania, region=Recas, puntos=87, precio=7.0, uva=Merlot]
+	Vino[pais=Romania, region=Dealurile Munteniei, puntos=88, precio=9.0, uva=Pinot Noir]
+	Vino[pais=Romania, region=Colinele Dobrogei, puntos=88, precio=9.0, uva=Merlot]
+	Vino[pais=Romania, region=Colinele Dobrogei, puntos=88, precio=9.0, uva=Pinot Grigio]
+	Vino[pais=Romania, region=Dealu Mare, puntos=87, precio=22.0, uva=Feteasca]
+	Vino[pais=Romania, region=Romania, puntos=86, precio=7.0, uva=Pinot Grigio]
+	Vino[pais=Romania, region=Colinele Dobrogei, puntos=88, precio=9.0, uva=Rosé]
+Hungary
+	Vino[pais=Hungary, region=Tokaji, puntos=92, precio=16.0, uva=Furmint]
+	Vino[pais=Hungary, region=Tokaji, puntos=91, precio=20.0, uva=Furmint]
+	Vino[pais=Hungary, region=Villány, puntos=88, precio=23.0, uva=Kekfrankos]
+	Vino[pais=Hungary, region=Sopron, puntos=87, precio=17.0, uva=Kekfrankos]
+	Vino[pais=Hungary, region=Villány, puntos=89, precio=19.0, uva=Rosé]
+	Vino[pais=Hungary, region=Tokaji, puntos=90, precio=16.0, uva=White Blend]
+	Vino[pais=Hungary, region=Sopron, puntos=90, precio=35.0, uva=Kekfrankos]
+	Vino[pais=Hungary, region=Villány, puntos=89, precio=28.0, uva=Kadarka]
+	Vino[pais=Hungary, region=Tokaji, puntos=90, precio=26.0, uva=Furmint]
+	Vino[pais=Hungary, region=Tokaji, puntos=90, precio=25.0, uva=Furmint]
+Uruguay
+	Vino[pais=Uruguay, region=Canelones, puntos=88, precio=16.0, uva=Tannat]
+	Vino[pais=Uruguay, region=Uruguay, puntos=88, precio=20.0, uva=Tannat]
+	Vino[pais=Uruguay, region=Progreso, puntos=88, precio=22.0, uva=Tannat]
+	Vino[pais=Uruguay, region=Progreso, puntos=88, precio=17.0, uva=Tannat]
+	Vino[pais=Uruguay, region=Progreso, puntos=89, precio=23.0, uva=Tannat]
+	Vino[pais=Uruguay, region=Progreso, puntos=88, precio=46.0, uva=Red Blend]
+	Vino[pais=Uruguay, region=Montevideo, puntos=90, precio=57.0, uva=Red Blend]
+	Vino[pais=Uruguay, region=Montevideo, puntos=89, precio=25.0, uva=Albariño]
+	Vino[pais=Uruguay, region=Juanico, puntos=90, precio=45.0, uva=Red Blend]
+Moldova
+	Vino[pais=Moldova, region=Moldova, puntos=87, precio=9.0, uva=White Blend]
+	Vino[pais=Moldova, region=Moldova, puntos=88, precio=16.0, uva=White Blend]
+	Vino[pais=Moldova, region=Moldova, puntos=88, precio=42.0, uva=White Blend]
+	Vino[pais=Moldova, region=Moldova, puntos=90, precio=32.0, uva=White Blend]
+	Vino[pais=Moldova, region=Moldova, puntos=88, precio=13.0, uva=Feteasca]
+	Vino[pais=Moldova, region=Moldova, puntos=90, precio=31.0, uva=Red Blend]
+	Vino[pais=Moldova, region=Moldova, puntos=89, precio=16.0, uva=Red Blend]
+	Vino[pais=Moldova, region=Moldova, puntos=90, precio=32.0, uva=Bordeaux-style Red Blend]
+	Vino[pais=Moldova, region=Moldova, puntos=89, precio=39.0, uva=Red Blend]
+	Vino[pais=Moldova, region=Moldova, puntos=88, precio=29.0, uva=Red Blend]
+Switzerland
+	Vino[pais=Switzerland, region=Neuchâtel, puntos=90, precio=21.0, uva=White Blend]
+	Vino[pais=Switzerland, region=Valais, puntos=90, precio=28.0, uva=Chasselas]
+Albania
+	Vino[pais=Albania, region=Mirditë, puntos=88, precio=20.0, uva=Kallmet]
+India
+	Vino[pais=India, region=Nashik, puntos=90, precio=10.0, uva=Chenin Blanc]
+	Vino[pais=India, region=Nashik, puntos=87, precio=12.0, uva=Chenin Blanc]
+	Vino[pais=India, region=Nashik, puntos=89, precio=12.0, uva=Sauvignon Blanc]
+	Vino[pais=India, region=Nashik, puntos=90, precio=13.0, uva=Shiraz]
+	Vino[pais=India, region=Nashik, puntos=91, precio=12.0, uva=Shiraz]
+	Vino[pais=India, region=Nashik, puntos=90, precio=12.0, uva=Sauvignon Blanc]
+Spain
+	Vino[pais=Spain, region=Northern Spain, puntos=86, precio=28.0, uva=Tempranillo]
+	Vino[pais=Spain, region=Northern Spain, puntos=83, precio=13.0, uva=Verdejo]
+	Vino[pais=Spain, region=Catalonia, puntos=88, precio=19.0, uva=Red Blend]
+	Vino[pais=Spain, region=Levante, puntos=86, precio=11.0, uva=Tempranillo]
+	Vino[pais=Spain, region=Catalonia, puntos=88, precio=22.0, uva=Red Blend]
+	Vino[pais=Spain, region=Northern Spain, puntos=86, precio=33.0, uva=Tempranillo]
+	Vino[pais=Spain, region=Catalonia, puntos=88, precio=24.0, uva=Red Blend]
+	Vino[pais=Spain, region=Catalonia, puntos=88, precio=23.0, uva=Red Blend]
+	Vino[pais=Spain, region=Northern Spain, puntos=83, precio=16.0, uva=Sauvignon Blanc]
+	Vino[pais=Spain, region=Northern Spain, puntos=86, precio=22.0, uva=Tempranillo]
+Lebanon
+	Vino[pais=Lebanon, region=Lebanon, puntos=91, precio=30.0, uva=Syrah-Cabernet Sauvignon]
+	Vino[pais=Lebanon, region=Bekaa Valley, puntos=88, precio=15.0, uva=White Blend]
+	Vino[pais=Lebanon, region=Bekaa Valley, puntos=88, precio=15.0, uva=Rosé]
+	Vino[pais=Lebanon, region=Lebanon, puntos=91, precio=20.0, uva=Red Blend]
+	Vino[pais=Lebanon, region=Bekaa Valley, puntos=89, precio=13.0, uva=Red Blend]
+New Zealand
+	Vino[pais=New Zealand, region=Hawke's Bay, puntos=91, precio=50.0, uva=Red Blend]
+	Vino[pais=New Zealand, region=Marlborough, puntos=90, precio=17.0, uva=Sauvignon Blanc]
+	Vino[pais=New Zealand, region=Marlborough, puntos=90, precio=15.0, uva=Sauvignon Blanc]
+	Vino[pais=New Zealand, region=Marlborough, puntos=90, precio=14.0, uva=Sauvignon Blanc]
+	Vino[pais=New Zealand, region=Central Otago, puntos=90, precio=25.0, uva=Chardonnay]
+	Vino[pais=New Zealand, region=Martinborough, puntos=89, precio=65.0, uva=Pinot Noir]
+	Vino[pais=New Zealand, region=Marlborough, puntos=89, precio=22.0, uva=Sauvignon Blanc]
+	Vino[pais=New Zealand, region=Marlborough, puntos=89, precio=16.0, uva=Sauvignon Blanc]
+	Vino[pais=New Zealand, region=Marlborough, puntos=89, precio=17.0, uva=Sauvignon Blanc]
+	Vino[pais=New Zealand, region=Marlborough, puntos=89, precio=14.0, uva=Sauvignon Blanc]
+Canada
+	Vino[pais=Canada, region=British Columbia, puntos=90, precio=70.0, uva=Bordeaux-style Red Blend]
+	Vino[pais=Canada, region=British Columbia, puntos=88, precio=18.0, uva=Rosé]
+	Vino[pais=Canada, region=British Columbia, puntos=89, precio=32.0, uva=Merlot]
+	Vino[pais=Canada, region=British Columbia, puntos=87, precio=21.0, uva=White Blend]
+	Vino[pais=Canada, region=British Columbia, puntos=88, precio=40.0, uva=Cabernet Sauvignon-Syrah]
+	Vino[pais=Canada, region=British Columbia, puntos=87, precio=32.0, uva=Bordeaux-style Red Blend]
+	Vino[pais=Canada, region=British Columbia, puntos=90, precio=19.0, uva=Pinot Gris]
+	Vino[pais=Canada, region=British Columbia, puntos=87, precio=18.0, uva=Sauvignon Blanc]
+	Vino[pais=Canada, region=Ontario, puntos=91, precio=60.0, uva=Vidal]
+	Vino[pais=Canada, region=British Columbia, puntos=89, precio=18.0, uva=Chardonnay]
+Turkey
+	Vino[pais=Turkey, region=Aegean, puntos=89, precio=20.0, uva=Red Blend]
+	Vino[pais=Turkey, region=Turkey, puntos=87, precio=16.0, uva=Cabernet Sauvignon-Merlot]
+	Vino[pais=Turkey, region=Turkey, puntos=89, precio=23.0, uva=Red Blend]
+	Vino[pais=Turkey, region=Aegean, puntos=89, precio=40.0, uva=Merlot-Cabernet Franc]
+	Vino[pais=Turkey, region=Ankara, puntos=89, precio=25.0, uva=Narince]
+	Vino[pais=Turkey, region=Turkey, puntos=89, precio=14.0, uva=Okuzgozu]
+	Vino[pais=Turkey, region=Turkey, puntos=88, precio=15.0, uva=Kalecik Karasi]
+	Vino[pais=Turkey, region=Thrace, puntos=87, precio=16.0, uva=Yapincak]
+	Vino[pais=Turkey, region=Ankara, puntos=87, precio=15.0, uva=Narince]
+	Vino[pais=Turkey, region=Aegean, puntos=88, precio=15.0, uva=Rosé]
+South Africa
+	Vino[pais=South Africa, region=Western Cape, puntos=83, precio=10.0, uva=Chenin Blanc]
+	Vino[pais=South Africa, region=Western Cape, puntos=86, precio=11.0, uva=Sauvignon Blanc]
+	Vino[pais=South Africa, region=Western Cape, puntos=85, precio=15.0, uva=Sauvignon Blanc]
+	Vino[pais=South Africa, region=Western Cape, puntos=85, precio=10.0, uva=Sauvignon Blanc]
+	Vino[pais=South Africa, region=Walker Bay, puntos=86, precio=20.0, uva=Sauvignon Blanc]
+	Vino[pais=South Africa, region=Stellenbosch, puntos=86, precio=20.0, uva=Sauvignon Blanc]
+	Vino[pais=South Africa, region=Western Cape, puntos=85, precio=10.0, uva=Chenin Blanc]
+	Vino[pais=South Africa, region=Stellenbosch, puntos=86, precio=35.0, uva=Sauvignon Blanc]
+	Vino[pais=South Africa, region=Stellenbosch, puntos=85, precio=22.0, uva=Chardonnay]
+	Vino[pais=South Africa, region=South Africa, puntos=84, precio=9.0, uva=Chenin Blanc]
+Italy
+	Vino[pais=Italy, region=Tuscany, puntos=88, precio=17.0, uva=Sangiovese]
+	Vino[pais=Italy, region=Piedmont, puntos=91, precio=105.0, uva=Nebbiolo]
+	Vino[pais=Italy, region=Tuscany, puntos=89, precio=65.0, uva=Sangiovese]
+	Vino[pais=Italy, region=Tuscany, puntos=88, precio=30.0, uva=Red Blend]
+	Vino[pais=Italy, region=Veneto, puntos=88, precio=15.0, uva=Glera]
+	Vino[pais=Italy, region=Northeastern Italy, puntos=86, precio=15.0, uva=Teroldego Rotaliano]
+	Vino[pais=Italy, region=Veneto, puntos=88, precio=18.0, uva=White Blend]
+	Vino[pais=Italy, region=Tuscany, puntos=88, precio=29.0, uva=Red Blend]
+	Vino[pais=Italy, region=Piedmont, puntos=91, precio=115.0, uva=Nebbiolo]
+	Vino[pais=Italy, region=Tuscany, puntos=89, precio=60.0, uva=Sangiovese]
+Macedonia
+	Vino[pais=Macedonia, region=Tikves, puntos=86, precio=13.0, uva=Žilavka]
+	Vino[pais=Macedonia, region=Tikves, puntos=89, precio=20.0, uva=Vranec]
+	Vino[pais=Macedonia, region=Tikves, puntos=89, precio=13.0, uva=Vranec]
+	Vino[pais=Macedonia, region=Tikves, puntos=89, precio=15.0, uva=Vranec]
+	Vino[pais=Macedonia, region=Tikves, puntos=88, precio=15.0, uva=Žilavka]
+Israel
+	Vino[pais=Israel, region=Judean Hills, puntos=90, precio=50.0, uva=Bordeaux-style Red Blend]
+	Vino[pais=Israel, region=Galilee, puntos=86, precio=30.0, uva=Red Blend]
+	Vino[pais=Israel, region=Samson, puntos=93, precio=25.0, uva=Petite Sirah]
+	Vino[pais=Israel, region=Galilee, puntos=87, precio=15.0, uva=Chardonnay]
+	Vino[pais=Israel, region=Jerusalem Hills, puntos=89, precio=40.0, uva=Cabernet Sauvignon]
+	Vino[pais=Israel, region=Judean Hills, puntos=91, precio=38.0, uva=Bordeaux-style Red Blend]
+	Vino[pais=Israel, region=Haut-Judeé, puntos=92, precio=75.0, uva=Bordeaux-style Red Blend]
+	Vino[pais=Israel, region=Galilee, puntos=89, precio=18.0, uva=Chardonnay]
+	Vino[pais=Israel, region=Galilee, puntos=90, precio=38.0, uva=Cabernet Franc-Cabernet Sauvignon]
+	Vino[pais=Israel, region=Judean Hills, puntos=92, precio=30.0, uva=Cabernet Sauvignon]
+Australia
+	Vino[pais=Australia, region=South Australia, puntos=92, precio=75.0, uva=Shiraz]
+	Vino[pais=Australia, region=South Australia, puntos=98, precio=850.0, uva=Shiraz]
+	Vino[pais=Australia, region=South Australia, puntos=93, precio=120.0, uva=Shiraz]
+	Vino[pais=Australia, region=South Australia, puntos=88, precio=20.0, uva=Rosé]
+	Vino[pais=Australia, region=South Australia, puntos=91, precio=45.0, uva=Shiraz]
+	Vino[pais=Australia, region=South Australia, puntos=91, precio=40.0, uva=Shiraz]
+	Vino[pais=Australia, region=South Australia, puntos=91, precio=29.0, uva=Grenache]
+	Vino[pais=Australia, region=Victoria, puntos=88, precio=42.0, uva=Pinot Noir]
+	Vino[pais=Australia, region=South Australia, puntos=90, precio=25.0, uva=Shiraz]
+	Vino[pais=Australia, region=Victoria, puntos=89, precio=20.0, uva=Pinot Noir]
+Germany
+	Vino[pais=Germany, region=Mosel, puntos=86, precio=17.0, uva=Riesling]
+	Vino[pais=Germany, region=Mosel, puntos=86, precio=18.0, uva=Riesling]
+	Vino[pais=Germany, region=Nahe, puntos=87, precio=13.0, uva=Scheurebe]
+	Vino[pais=Germany, region=Pfalz, puntos=89, precio=20.0, uva=Dornfelder]
+	Vino[pais=Germany, region=Rheingau, puntos=87, precio=57.0, uva=Riesling]
+	Vino[pais=Germany, region=Mosel, puntos=86, precio=16.0, uva=Riesling]
+	Vino[pais=Germany, region=Mosel, puntos=86, precio=13.0, uva=Riesling]
+	Vino[pais=Germany, region=Mosel, puntos=86, precio=12.0, uva=Riesling]
+	Vino[pais=Germany, region=Mosel, puntos=86, precio=15.0, uva=Riesling]
+	Vino[pais=Germany, region=Franken, puntos=90, precio=35.0, uva=Rieslaner]
+
+Casos de prueba para calcularUvasPais
+=====================================
+
+TEST de agruparUvasPorPais
+Las uvas de cada país son: 
+	Portugal=[Portuguese Sparkling, Alicante Bouschet, Moscatel, Encruzado, Touriga Nacional, Tinta Roriz, Petite Verdot, Port, Aragonês, Castelão, Portuguese White, Touriga Nacional-Cabernet Sauvignon, Viognier, Fernão Pires, Tinta Francisca, Arinto, Aragonez, Alvarinho, Bical, Rosé, Siria, Syrah, Moscatel Roxo, Merlot-Syrah, Verdelho, Antão Vaz, Baga, Trincadeira, Loureiro, Bastardo, Portuguese Rosé, Rhône-style Red Blend, Petit Verdot, Cabernet Sauvignon, Portuguese Red, Alfrocheiro, Merlot, Códega do Larinho]
+	Greece=[Assyrtico, Malagousia, Red Blend, White Blend, Roditis, Assyrtiko, Agiorgitiko, Malagouzia]
+	Austria=[St. Laurent, Red Blend, Pinot Noir, Weissburgunder, Pinot Blanc, Zweigelt, Blauburgunder, Chardonnay, Furmint, Welschriesling, Riesling, Rosé, Blaufränkisch, Scheurebe, Gelber Muskateller, White Blend, Orangetraube, Neuburger, Roter Veltliner, Traminer, Grüner Veltliner, Sauvignon Blanc, Austrian Red Blend]
+	Morocco=[Red Blend, Cabernet Sauvignon Grenache, White Blend, Syrah, Chardonnay, Syrah-Grenache, Sauvignon Blanc]
+	Brazil=[Merlot]
+	Slovenia=[Ribolla Gialla, Teran, Red Blend, Moscato, Malvasia, Cabernet Franc, Chardonnay, Bordeaux-style Red Blend, Pinot Grigio, Sauvignon, Cabernet Sauvignon, Riesling, Rosé, White Blend, Vitovska, Merlot-Cabernet Franc, Pinela, Sauvignon Blanc, Merlot]
+	Bulgaria=[Red Blend, Pinot Noir, Cabernet Sauvignon, Syrah, Chardonnay, Ruen, Mavrud, Merlot]
+	Serbia=[Tamjanika, Prokupac, Red Blend, Riesling, Portuguiser, Morava]
+	Chile=[Muscat, Cabernet Sauvignon-Syrah, Cabernet Sauvignon-Malbec, Viognier, Viognier-Chardonnay, Riesling, Rosé, Chardonnay-Viognier, Cabernet Sauvignon-Carmenère, Syrah, Pinot Noir-Syrah, Carignan, Red Blend, Pinot Noir, Carmenère-Cabernet Sauvignon, Malbec, Tempranillo, Chardonnay, Cabernet Franc, Bordeaux-style Red Blend, Petit Verdot, Cabernet Sauvignon, White Blend, Cabernet Sauvignon-Cabernet Franc, Sauvignon Blanc, Merlot, Carmenère]
+	France=[Mondeuse, Pied de Perdrix, Semillon-Sauvignon Blanc, Merlot-Malbec, Tannat-Cabernet, Chasselas, Chardonnay-Viognier, Fer Servadou, Marsanne, Syrah, Chardonnay-Sauvignon Blanc, Chenin Blanc-Chardonnay, Grenache, Alsace white blend, Malbec, Duras, Chardonnay, Cabernet Franc, Colombard, Rhône-style Red Blend, Tannat-Cabernet Franc, Cabernet Sauvignon, Gros Manseng, Cabernet-Syrah, White Blend, Pinot Noir-Gamay, Roussanne, Gamay, Jacquère, Bordeaux-style White Blend, Muscat, Ugni Blanc-Colombard, Pinot Auxerrois, Pinot Blanc, Negrette, Mauzac, Mansois, Pinot Gris, Gros and Petit Manseng, Champagne Blend, Provence red blend, Viognier, Sauvignon Blanc-Chardonnay, Riesling, Rosé, Gewürztraminer, Rhône-style White Blend, Colombard-Ugni Blanc, Chenin Blanc, Romorantin, Tannat, Sylvaner, Syrah-Merlot, Red Blend, Aligoté, Pinot Noir, Sparkling Blend, Colombard-Sauvignon Blanc, Bordeaux-style Red Blend, Auxerrois, Malbec-Merlot, Grenache-Syrah, Tannat-Merlot, Sauvignon Blanc, Merlot, Melon]
+	Bosnia and Herzegovina=[Blatina]
+	US=[Muskat Ottonel, Marsanne-Roussanne, Symphony, Chardonnay-Viognier, Cabernet Sauvignon-Merlot, Marsanne, Syrah, Verdelho, Grenache, Grenache Blanc, Cabernet Blend, Fumé Blanc, Muscat d'Alexandrie, Garnacha, Grenache Blend, Zinfandel, Chardonnay, Cabernet Franc, Rhône-style Red Blend, Petit Verdot, G-S-M, Aglianico, Charbono, Roussanne, Grüner Veltliner, Muscat, Nebbiolo, Mourvèdre, Syrah-Grenache, Cabernet Franc-Merlot, Champagne Blend, Viognier, Rkatsiteli, Gamay Noir, Cabernet Sauvignon-Sangiovese, Negroamaro, Gewürztraminer, Tocai Friulano, Sauvignon Blanc-Semillon, Syrah-Petite Sirah, Sangiovese-Cabernet Sauvignon, Dolcetto, Vignoles, Pinot Noir, Sparkling Blend, Norton, Bordeaux-style Red Blend, Meritage, Sangiovese, Barbera, Lemberger, Syrah-Mourvèdre, Grenache-Syrah, Sauvignon Blanc, Merlot, Vermentino, Alicante Bouschet, Touriga Nacional, Petite Verdot, Port, Picpoul, Cabernet Sauvignon-Syrah, Pinot Meunier, Viognier-Chardonnay, Semillon-Sauvignon Blanc, Cinsault, Traminette, Syrah-Cabernet Sauvignon, Shiraz, Malbec-Tannat, Mission, Teroldego, Pinot Noir-Syrah, Saperavi, Malbec, Chardonnay-Semillon, Zweigelt, Orange Muscat, Verdejo, Carignane, Ugni Blanc, Cabernet Sauvignon, White Blend, Merlot-Cabernet Sauvignon, Cabernet Sauvignon-Cabernet Franc, Carmenère, Bordeaux-style White Blend, Primitivo, Pinot Blanc, Pinot Gris, Albariño, Torrontés, Riesling, Rosé, Blaufränkisch, Montepulciano, Rhône-style White Blend, Malvasia Bianca, Chenin Blanc, Roussanne-Viognier, Tannat, Syrah-Merlot, Graciano, Red Blend, Aligoté, Tempranillo, Moscato, Muscat Canelli, Petite Sirah, Pinot Grigio, Baco Noir, Petite Syrah, Petit Manseng, Müller-Thurgau, Sangiovese-Syrah, Cabernet Franc-Malbec, Sémillon, Chambourcin]
+	Croatia=[Posip, Red Blend, White Blend, Malvazija]
+	Argentina=[Champagne Blend, Malbec Blend, Bonarda, Torrontés, Malbec-Petit Verdot, Rosé, Malbec-Bonarda, Chardonnay-Viognier, Syrah, Chenin Blanc-Chardonnay, Cabernet Blend, Chenin Blanc, Red Blend, Pinot Noir, Moscato, Malbec, Malbec-Cabernet Sauvignon, Sparkling Blend, Chardonnay, Cabernet Franc, Bordeaux-style Red Blend, Pinot Grigio, Petit Verdot, Cabernet Sauvignon, White Blend, Malbec-Merlot, Sauvignon Blanc, Merlot]
+	Romania=[Pinot Noir, Cabernet Sauvignon, Rosé, Feteasca, Chardonnay, Sauvignon Blanc, Merlot, Pinot Grigio]
+	Hungary=[Furmint, Red Blend, Kekfrankos, Rosé, White Blend, Cabernet Franc, Kadarka, Grüner Veltliner]
+	Uruguay=[Tannat, Red Blend, Albariño]
+	Moldova=[Red Blend, Cabernet Sauvignon, Feteasca, Feteascǎ Regalǎ, White Blend, Bordeaux-style Red Blend, Traminer, Feteasca Neagra, Merlot]
+	Switzerland=[Chasselas, White Blend]
+	Albania=[Kallmet]
+	India=[Shiraz, Sauvignon Blanc, Chenin Blanc]
+	Spain=[Garnacha Tintorera, Tinto del Pais, Palomino, Verdejo-Viura, Rosado, Tempranillo Blend, Carineña, Carignan-Grenache, Syrah, Chardonnay-Sauvignon Blanc, Grenache, Monastrell, Cabernet Blend, Grenache Blanc, Sherry, Carignan, Garnacha Blanca, Garnacha, Chardonnay, Cabernet Franc, Verdejo, Godello, Cabernet Sauvignon, White Blend, Tinta Fina, Tempranillo Blanco, Moscatel, Pedro Ximénez, Garnacha-Syrah, Albariño, Tempranillo-Cabernet Sauvignon, Listán Negro, Sauvignon Blanc-Chardonnay, Riesling, Rosé, Bobal, Hondarrabi Zuri, Garnacha Blend, Tempranillo-Shiraz, Viura, Macabeo, Tinto Fino, Grenache-Carignan, Garnacha-Tempranillo, Graciano, Red Blend, Jaen, Tempranillo, Mencía, Moscato, Sparkling Blend, Malvasia, Prieto Picudo, Premsal, Bordeaux-style Red Blend, Xarel-lo, Trepat, Tinta de Toro, Grenache-Syrah, Sauvignon Blanc, Merlot]
+	Lebanon=[Red Blend, Rosé, White Blend, Syrah-Cabernet Sauvignon]
+	New Zealand=[Red Blend, Pinot Noir, Riesling, White Blend, Gewürztraminer, Syrah, Chardonnay, Pinot Gris, Bordeaux-style Red Blend, Champagne Blend, Sauvignon Blanc]
+	Canada=[Pinot Noir, Pinot Gris, Chardonnay, Cabernet Franc, Bordeaux-style Red Blend, Cabernet Sauvignon-Syrah, Vidal, Riesling, Rosé, White Blend, Syrah, Merlot, Sauvignon Blanc]
+	Turkey=[Kuntra, Okuzgozu, Red Blend, Narince, Boğazkere, Karalahna, Bordeaux-style Red Blend, Emir, Cabernet Sauvignon, Kalecik Karasi, Rosé, Cabernet Sauvignon-Merlot, Merlot-Cabernet Franc, Yapincak]
+	South Africa=[Chardonnay, Champagne Blend, Sauvignon Blanc, Chenin Blanc]
+	Italy=[Trebbiano, Nerello Cappuccio, Cabernet, Nerello Mascalese, Prié Blanc, Pecorino, Cococciola, Fiano, Arneis, Syrah, Rosato, Pugnitello, Malvasia Nera, Kerner, Moscato Giallo, Nero d'Avola, Refosco, Perricone, Zibibbo, Chardonnay, Cabernet Franc, Lambrusco, Catarratto, Cannonau, Glera, Aglianico, Cabernet Sauvignon, White Blend, Frappato, Greco, Gaglioppo, Nebbiolo, Garganega, Primitivo, Lambrusco di Sorbara, Inzolia, Veltliner, Sauvignon, Viognier, Lambrusco Grasparossa, Sirica, Riesling, Rosé, Montepulciano, Negroamaro, Gewürztraminer, Dolcetto, Passerina, Sylvaner, Red Blend, Ciliegiolo, Friulano, Moscato, Tempranillo, Turbiana, Malvasia, Cesanese d'Affile, Pinot Nero, Pinot Grigio, Grillo, Sangiovese, Barbera, Falanghina, Pinot Bianco, Carricante, Müller-Thurgau, Teroldego Rotaliano, Sauvignon Blanc, Merlot, Vermentino]
+	Macedonia=[Vranec, Žilavka]
+	Israel=[Red Blend, Cabernet Sauvignon, Cabernet Sauvignon-Merlot, Syrah, Shiraz, Chardonnay, Cabernet Franc-Cabernet Sauvignon, Cabernet Franc, Bordeaux-style Red Blend, Petite Sirah]
+	Australia=[Red Blend, Pinot Noir, Sparkling Blend, Shiraz-Viognier, Chardonnay, Cabernet-Shiraz, Cabernet Sauvignon, Riesling, Rosé, Marsanne, Sémillon, Shiraz, Sauvignon Blanc-Semillon, Cabernet Sauvignon-Shiraz, Grenache]
+	Germany=[Elbling, Rivaner, St. Laurent, Red Blend, Pinot Noir, Pinot Blanc, Grauburgunder, Pinot Gris, Pinot Grigio, Spätburgunder, Auxerrois, Riesling, Scheurebe, Rosé, Schwartzriesling, Lemberger, Müller-Thurgau, Rieslaner, Gewürztraminer, Muskateller, Dornfelder, Silvaner, Früburgunder]
+
+Casos de prueba para calcularCalidadPrecioPorRegionMayorDe
+==========================================================
+
+TEST de calcularCalidadPrecioPorRegionMayorDe
+	Total vinos de calidad/precio mayor de 1,2: 
+	{Bordeaux=237, Canelones=1, Württemberg=7, Atalanti Valley=2, Recas=1, Spain Other=8, Beaujolais=17, Sicily & Sardinia=148, Terras do Dão=1, Aconcagua Costa=2, Bekaa Valley=3, Goriska Brda=11, Thrace=1, Martinborough=8, Serra Gaúcha=1, Guerrouane=1, Župa=6, Neuchâtel=1, British Columbia=26, California=1810, Nashik=6, Sopron=3, Tuscany=257, Portuguese Table Wine=1, Nahe=14, Peumo=2, Retsina=1, Elqui Valley=5, Judean Hills=11, Curicó Valley=7, Idaho=51, Tikves=5, Western Australia=6, Alentejo=10, Kumeu=10, Bairrada=12, Viile Timisului=1, Kamptal=13, Burgenland=35, North Dalmatia=3, Washington=339, South Australia=44, Cachapoal Valley=11, Wiener Gemischter Satz=2, Missouri=4, Central Italy=24, Central Otago=9, Bulgaria=2, Samson=2, Florina=1, Dolenjska=1, Progreso=4, Northern Spain=311, Lebanon=2, Italy Other=12, New Mexico=2, Spanish Islands=5, Rhône Valley=72, Jerusalem Hills=2, Zenata=7, Curicó and Leyda Valleys=1, Other=29, Baden=10, Colinele Dobrogei=3, Lolol Valley=1, Port=6, Australia Other=3, Pangeon=1, Pocerina=1, Gisborne=1, Danube River Plains=1, Marchigue=4, Thracian Valley=11, Slovenia=1, Corinth=1, Franken=2, Mostar=1, Loncomilla Valley=1, Moldova=17, Western Cape=6, Beira Interior=2, Wachau=10, Dealu Mare=1, Lombardy=34, Loire Valley=129, New South Wales=5, Carnuntum=13, Vinho Verde=21, Mittelburgenland=1, Lisboa=21, Colorado=8, Waipara=1, Valais=1, Fruška Gora=1, New York=130, Romania=7, Galicia=45, Nemea=4, Alsace=269, Duriense=1, Southwest France=190, Rapel Valley=9, Andalucia=16, Ankara=4, North Carolina=6, Central Greece=1, Juanico=1, Ahr=1, Champagne=24, Terasele Dunarii=1, Morocco=1, Douro=61, Weinland Österreich=2, Štajerska=6, Chile=5, Weinviertel=3, Arizona=20, Eisenberg=1, Nelson=3, Catalonia=93, Central Spain=38, Victoria=11, Rheinhessen=30, Primorska=3, Provence=88, Mosel=92, Golan Heights=1, Dão=18, Turkey=11, Kremstal=10, Galilee=20, Robertson=3, South Africa=1, Virginia=75, Pannon=1, Vipavska Dolina=5, Lontué Valley=1, Northeastern Italy=120, Veneto=47, Galil=3, Limarí Valley=7, Haut-Judeé=1, Pfalz=24, Leyda Valley=27, Villány=4, San Clemente=1, Santorini=9, Itata Valley=1, San Antonio=8, Uruguay=1, Aegean=3, Burgundy=122, Niederösterreich=35, Thermenregion=5, France Other=22, Upper Galilee=1, Chalkidiki=3, Korčula=2, Languedoc-Roussillon=7, Istria=1, Südsteiermark=1, Slovenska Istra=1, Levante=27, Hawke's Bay=5, Maule Valley=35, Simonsberg-Paarl=1, Mirditë=1, Awatere Valley=2, Palmela=3, Tokaji=5, Peloponnese=6, Mendoza Province=183, Beiras=1, Southern Italy=78, Tasmania=2, Alentejano=78, Beira Atlantico=2, Stellenbosch=4, New Zealand=2, Tejo=55, Shomron=1, Drama=1, Ilia=1, Macedonia=1, Piedmont=152, Wagram-Donauland=1, Wagram=8, Ontario=5, Oregon=403, Marlborough=26, Overberg=1, Central Valley=15, Bucelas=1, Dealurile Munteniei=2, Moscatel de Setúbal=1, America=4, Vienna=2, Kras=2, Rheingau=21, Montevideo=2, Colchagua Valley=47, Bío Bío Valley=6, Casablanca Valley=26, Apalta=1, Aconcagua Valley=5, Alenteo=1, Península de Setúbal=10, Moscatel do Douro=1, Alenquer=1, Maipo Valley=29, Walker Bay=1, Hvar=1}
+
+Casos de prueba para calcularVinoMasCaroPorPais
+==========================================================
+
+TEST de calcularVinoMasCaroPorPais
+	Vino más caro por pais: 	{Portugal=Vino[pais=Portugal, region=Moscatel do Douro, puntos=90, precio=137.0, uva=Moscatel], Greece=Vino[pais=Greece, region=Santorini, puntos=87, precio=33.0, uva=Assyrtico], Austria=Vino[pais=Austria, region=Burgenland, puntos=97, precio=125.0, uva=Scheurebe], Morocco=Vino[pais=Morocco, region=Guerrouane, puntos=93, precio=35.0, uva=Syrah-Grenache], Brazil=Vino[pais=Brazil, region=Serra Gaúcha, puntos=88, precio=15.0, uva=Merlot], Slovenia=Vino[pais=Slovenia, region=Vipavska Dolina, puntos=90, precio=60.0, uva=Merlot-Cabernet Franc], Bulgaria=Vino[pais=Bulgaria, region=Thracian Valley, puntos=90, precio=28.0, uva=Pinot Noir], Serbia=Vino[pais=Serbia, region=Župa, puntos=89, precio=40.0, uva=Red Blend], Chile=Vino[pais=Chile, region=Aconcagua Valley, puntos=89, precio=235.0, uva=Carmenère], France=Vino[pais=France, region=Bordeaux, puntos=100, precio=848.0, uva=Bordeaux-style White Blend], Bosnia and Herzegovina=Vino[pais=Bosnia and Herzegovina, region=Mostar, puntos=88, precio=12.0, uva=Blatina], US=Vino[pais=US, region=California, puntos=95, precio=325.0, uva=Cabernet Sauvignon], Croatia=Vino[pais=Croatia, region=North Dalmatia, puntos=91, precio=50.0, uva=Red Blend], Argentina=Vino[pais=Argentina, region=Mendoza Province, puntos=92, precio=140.0, uva=Malbec], Romania=Vino[pais=Romania, region=Dealu Mare, puntos=87, precio=22.0, uva=Feteasca], Hungary=Vino[pais=Hungary, region=Sopron, puntos=90, precio=35.0, uva=Kekfrankos], Uruguay=Vino[pais=Uruguay, region=Montevideo, puntos=90, precio=57.0, uva=Red Blend], Moldova=Vino[pais=Moldova, region=Moldova, puntos=88, precio=42.0, uva=White Blend], Switzerland=Vino[pais=Switzerland, region=Valais, puntos=90, precio=28.0, uva=Chasselas], Albania=Vino[pais=Albania, region=Mirditë, puntos=88, precio=20.0, uva=Kallmet], India=Vino[pais=India, region=Nashik, puntos=90, precio=13.0, uva=Shiraz], Spain=Vino[pais=Spain, region=Catalonia, puntos=96, precio=770.0, uva=Carignan], Lebanon=Vino[pais=Lebanon, region=Lebanon, puntos=91, precio=30.0, uva=Syrah-Cabernet Sauvignon], New Zealand=Vino[pais=New Zealand, region=Hawke's Bay, puntos=92, precio=85.0, uva=Bordeaux-style Red Blend], Canada=Vino[pais=Canada, region=British Columbia, puntos=90, precio=70.0, uva=Bordeaux-style Red Blend], Turkey=Vino[pais=Turkey, region=Thrace, puntos=91, precio=79.0, uva=Cabernet Sauvignon], South Africa=Vino[pais=South Africa, region=Stellenbosch, puntos=86, precio=35.0, uva=Sauvignon Blanc], Italy=Vino[pais=Italy, region=Piedmont, puntos=92, precio=500.0, uva=Red Blend], Macedonia=Vino[pais=Macedonia, region=Tikves, puntos=89, precio=20.0, uva=Vranec], Israel=Vino[pais=Israel, region=Galilee, puntos=90, precio=85.0, uva=Bordeaux-style Red Blend], Australia=Vino[pais=Australia, region=South Australia, puntos=98, precio=850.0, uva=Shiraz], Germany=Vino[pais=Germany, region=Rheingau, puntos=94, precio=365.0, uva=Riesling]}
+
+Casos de prueba para calcularNMejoresVinosPorPais
+==========================================================
+
+TEST de calcularNMejoresVinosPorPais
+	Los 3 mejores vinos por pais: 	{Albania=[Vino[pais=Albania, region=Mirditë, puntos=88, precio=20.0, uva=Kallmet]], Argentina=[Vino[pais=Argentina, region=Mendoza Province, puntos=92, precio=140.0, uva=Malbec], Vino[pais=Argentina, region=Mendoza Province, puntos=93, precio=140.0, uva=Malbec], Vino[pais=Argentina, region=Mendoza Province, puntos=92, precio=120.0, uva=Malbec-Cabernet Sauvignon]], Australia=[Vino[pais=Australia, region=South Australia, puntos=98, precio=850.0, uva=Shiraz], Vino[pais=Australia, region=South Australia, puntos=97, precio=600.0, uva=Shiraz], Vino[pais=Australia, region=South Australia, puntos=95, precio=500.0, uva=Cabernet Sauvignon]], Austria=[Vino[pais=Austria, region=Burgenland, puntos=97, precio=125.0, uva=Scheurebe], Vino[pais=Austria, region=Burgenland, puntos=96, precio=105.0, uva=Welschriesling], Vino[pais=Austria, region=Burgenland, puntos=96, precio=100.0, uva=Traminer]], Bosnia and Herzegovina=[Vino[pais=Bosnia and Herzegovina, region=Mostar, puntos=88, precio=12.0, uva=Blatina]], Brazil=[Vino[pais=Brazil, region=Serra Gaúcha, puntos=88, precio=15.0, uva=Merlot]], Bulgaria=[Vino[pais=Bulgaria, region=Thracian Valley, puntos=90, precio=28.0, uva=Pinot Noir], Vino[pais=Bulgaria, region=Thracian Valley, puntos=90, precio=28.0, uva=Syrah], Vino[pais=Bulgaria, region=Thracian Valley, puntos=90, precio=26.0, uva=Mavrud]], Canada=[Vino[pais=Canada, region=British Columbia, puntos=90, precio=70.0, uva=Bordeaux-style Red Blend], Vino[pais=Canada, region=Ontario, puntos=91, precio=60.0, uva=Vidal], Vino[pais=Canada, region=British Columbia, puntos=88, precio=40.0, uva=Cabernet Sauvignon-Syrah]], Chile=[Vino[pais=Chile, region=Aconcagua Valley, puntos=89, precio=235.0, uva=Carmenère], Vino[pais=Chile, region=Colchagua Valley, puntos=91, precio=100.0, uva=Red Blend], Vino[pais=Chile, region=Aconcagua Valley, puntos=91, precio=100.0, uva=Petit Verdot]], Croatia=[Vino[pais=Croatia, region=North Dalmatia, puntos=91, precio=50.0, uva=Red Blend], Vino[pais=Croatia, region=North Dalmatia, puntos=88, precio=27.0, uva=Posip], Vino[pais=Croatia, region=Korčula, puntos=86, precio=25.0, uva=Posip]], France=[Vino[pais=France, region=Bordeaux, puntos=100, precio=848.0, uva=Bordeaux-style White Blend], Vino[pais=France, region=Burgundy, puntos=93, precio=740.0, uva=Pinot Noir], Vino[pais=France, region=Bordeaux, puntos=97, precio=698.0, uva=Bordeaux-style White Blend]], Germany=[Vino[pais=Germany, region=Rheingau, puntos=94, precio=365.0, uva=Riesling], Vino[pais=Germany, region=Rheingau, puntos=93, precio=365.0, uva=Riesling], Vino[pais=Germany, region=Mosel, puntos=94, precio=350.0, uva=Riesling]], Greece=[Vino[pais=Greece, region=Santorini, puntos=87, precio=33.0, uva=Assyrtico], Vino[pais=Greece, region=Santorini, puntos=89, precio=30.0, uva=Assyrtico], Vino[pais=Greece, region=Santorini, puntos=87, precio=30.0, uva=Assyrtiko]], Hungary=[Vino[pais=Hungary, region=Sopron, puntos=90, precio=35.0, uva=Kekfrankos], Vino[pais=Hungary, region=Villány, puntos=89, precio=30.0, uva=Cabernet Franc], Vino[pais=Hungary, region=Villány, puntos=89, precio=28.0, uva=Kadarka]], India=[Vino[pais=India, region=Nashik, puntos=90, precio=13.0, uva=Shiraz], Vino[pais=India, region=Nashik, puntos=87, precio=12.0, uva=Chenin Blanc], Vino[pais=India, region=Nashik, puntos=89, precio=12.0, uva=Sauvignon Blanc]], Israel=[Vino[pais=Israel, region=Galilee, puntos=90, precio=85.0, uva=Bordeaux-style Red Blend], Vino[pais=Israel, region=Haut-Judeé, puntos=92, precio=75.0, uva=Bordeaux-style Red Blend], Vino[pais=Israel, region=Galilee, puntos=90, precio=70.0, uva=Cabernet Sauvignon]], Italy=[Vino[pais=Italy, region=Piedmont, puntos=92, precio=500.0, uva=Red Blend], Vino[pais=Italy, region=Tuscany, puntos=87, precio=325.0, uva=Sangiovese], Vino[pais=Italy, region=Tuscany, puntos=96, precio=315.0, uva=Merlot]], Lebanon=[Vino[pais=Lebanon, region=Lebanon, puntos=91, precio=30.0, uva=Syrah-Cabernet Sauvignon], Vino[pais=Lebanon, region=Lebanon, puntos=91, precio=20.0, uva=Red Blend], Vino[pais=Lebanon, region=Bekaa Valley, puntos=88, precio=15.0, uva=White Blend]], Macedonia=[Vino[pais=Macedonia, region=Tikves, puntos=89, precio=20.0, uva=Vranec], Vino[pais=Macedonia, region=Tikves, puntos=89, precio=15.0, uva=Vranec], Vino[pais=Macedonia, region=Tikves, puntos=88, precio=15.0, uva=Žilavka]], Moldova=[Vino[pais=Moldova, region=Moldova, puntos=88, precio=42.0, uva=White Blend], Vino[pais=Moldova, region=Moldova, puntos=89, precio=39.0, uva=Red Blend], Vino[pais=Moldova, region=Moldova, puntos=90, precio=32.0, uva=White Blend]], Morocco=[Vino[pais=Morocco, region=Guerrouane, puntos=93, precio=35.0, uva=Syrah-Grenache], Vino[pais=Morocco, region=Morocco, puntos=89, precio=25.0, uva=Red Blend], Vino[pais=Morocco, region=Zenata, puntos=88, precio=18.0, uva=Chardonnay]], New Zealand=[Vino[pais=New Zealand, region=Hawke's Bay, puntos=92, precio=85.0, uva=Bordeaux-style Red Blend], Vino[pais=New Zealand, region=Martinborough, puntos=89, precio=65.0, uva=Pinot Noir], Vino[pais=New Zealand, region=Central Otago, puntos=92, precio=65.0, uva=Pinot Noir]], Portugal=[Vino[pais=Portugal, region=Moscatel do Douro, puntos=90, precio=137.0, uva=Moscatel], Vino[pais=Portugal, region=Alentejano, puntos=91, precio=130.0, uva=Alicante Bouschet], Vino[pais=Portugal, region=Port, puntos=92, precio=110.0, uva=Port]], Romania=[Vino[pais=Romania, region=Dealu Mare, puntos=87, precio=22.0, uva=Feteasca], Vino[pais=Romania, region=Romania, puntos=87, precio=9.0, uva=Merlot], Vino[pais=Romania, region=Romania, puntos=87, precio=9.0, uva=Sauvignon Blanc]], Serbia=[Vino[pais=Serbia, region=Župa, puntos=89, precio=40.0, uva=Red Blend], Vino[pais=Serbia, region=Pocerina, puntos=87, precio=26.0, uva=Morava], Vino[pais=Serbia, region=Župa, puntos=87, precio=22.0, uva=Tamjanika]], Slovenia=[Vino[pais=Slovenia, region=Vipavska Dolina, puntos=90, precio=60.0, uva=Merlot-Cabernet Franc], Vino[pais=Slovenia, region=Goriska Brda, puntos=90, precio=46.0, uva=Bordeaux-style Red Blend], Vino[pais=Slovenia, region=Goriska Brda, puntos=90, precio=40.0, uva=Ribolla Gialla]], South Africa=[Vino[pais=South Africa, region=Stellenbosch, puntos=86, precio=35.0, uva=Sauvignon Blanc], Vino[pais=South Africa, region=Robertson, puntos=89, precio=26.0, uva=Chardonnay], Vino[pais=South Africa, region=Stellenbosch, puntos=85, precio=22.0, uva=Chardonnay]], Spain=[Vino[pais=Spain, region=Catalonia, puntos=96, precio=770.0, uva=Carignan], Vino[pais=Spain, region=Northern Spain, puntos=89, precio=500.0, uva=Tempranillo-Cabernet Sauvignon], Vino[pais=Spain, region=Northern Spain, puntos=93, precio=450.0, uva=Tinto Fino]], Switzerland=[Vino[pais=Switzerland, region=Valais, puntos=90, precio=28.0, uva=Chasselas], Vino[pais=Switzerland, region=Neuchâtel, puntos=90, precio=21.0, uva=White Blend]], Turkey=[Vino[pais=Turkey, region=Thrace, puntos=91, precio=79.0, uva=Cabernet Sauvignon], Vino[pais=Turkey, region=Aegean, puntos=89, precio=40.0, uva=Merlot-Cabernet Franc], Vino[pais=Turkey, region=Ankara, puntos=89, precio=25.0, uva=Narince]], US=[Vino[pais=US, region=California, puntos=95, precio=325.0, uva=Cabernet Sauvignon], Vino[pais=US, region=California, puntos=96, precio=235.0, uva=Cabernet Sauvignon], Vino[pais=US, region=California, puntos=93, precio=200.0, uva=Cabernet Sauvignon]], Uruguay=[Vino[pais=Uruguay, region=Montevideo, puntos=90, precio=57.0, uva=Red Blend], Vino[pais=Uruguay, region=Progreso, puntos=88, precio=46.0, uva=Red Blend], Vino[pais=Uruguay, region=Juanico, puntos=90, precio=45.0, uva=Red Blend]]}
+
+Casos de prueba para calcularRegionConMejoresVinos
+==========================================================
+
+TEST de calcularRegionConMejoresVinos
+	La región con mejores vinos con una calidad-precio superior o igual a 1,2: 
+	California
